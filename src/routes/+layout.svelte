@@ -24,7 +24,7 @@
   }
 
   :global(body) {
-    font-family: "Albert Sans", sans-serif;
+    font-family: "JetBrains Mono", sans-serif;
     color: var(--white);
     background-color: var(--black);
   }

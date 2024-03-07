@@ -5,6 +5,10 @@
   export let data: PageData
 </script>
 
+<svelte:head>
+  <title>thp. | site</title>
+  <meta name="description" content="it's my life logging" />
+</svelte:head>
 <article>
   {#each data.meta as meta}
     <PostCard {meta} />

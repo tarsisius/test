@@ -6,6 +6,11 @@
   export let data: PageData
 </script>
 
+<svelte:head>
+  <title>thp. | {data.post.meta.title}</title>
+  <meta name="description" content={data.post.meta.title} />
+</svelte:head>
+
 <article>
   <div class="top">
     <Undo />
