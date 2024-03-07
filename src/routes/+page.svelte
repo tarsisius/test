@@ -10,5 +10,5 @@
 </p>
 
 {#each data.meta as meta}
-    <p>{meta.title}</p>
-  {/each}
+  <p>{meta.title}</p>
+{/each}
