@@ -1,11 +1,12 @@
 <script lang="ts">
-  import { getAllMeta } from "$lib/extract"
+  import type { PageData } from "./$types"
   import PostCard from "$lib/components/post-card.svelte"
-  const metas = getAllMeta()
+
+  export let data: PageData
 </script>
 
 <article>
-  {#each metas as meta}
+  {#each data.meta as meta}
     <PostCard {meta} />
   {/each}
 </article>
