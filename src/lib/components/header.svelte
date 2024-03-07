@@ -34,7 +34,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    padding: 4rem 0;
+    padding: 4rem 1rem;
     @media (min-width: 32rem) {
       padding: 4rem 2rem;
     }
