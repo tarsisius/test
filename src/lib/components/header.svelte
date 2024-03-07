@@ -4,7 +4,7 @@
 
 <header>
   <a class="title" href="{base}/">
-    <img src="/logo.jpg" alt="A starry night sky." />
+    <img src="{base}/logo.jpg" alt="A starry night sky." />
   </a>
 </header>
 
