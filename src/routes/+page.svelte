@@ -6,10 +6,8 @@
 </script>
 
 <article>
-  cek duls
   {#each data.meta as meta}
-    <p>{meta.title}</p>
-    <!-- <PostCard {meta} /> -->
+    <PostCard {meta} />
   {/each}
 </article>
 
