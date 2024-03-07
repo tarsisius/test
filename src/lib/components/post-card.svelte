@@ -1,12 +1,13 @@
 <script lang="ts">
+  import { base } from "$app/paths"
   import Pointer from "$lib/components/icons/pointer.svelte"
-  import type { Meta } from "$lib/extract-markdown"
+  import type { Meta } from "$lib/extract"
 
   export let meta: Meta
   $: ({ title, slug, published } = meta)
 </script>
 
-<a href='/'>
+<a href="{base}/{slug}">
   <h2>
     {title}
   </h2>
@@ -40,7 +41,7 @@
     display: flex;
     align-items: center;
     position: relative;
-    margin:0;
+    margin: 0;
   }
 
   .right {
@@ -60,7 +61,7 @@
   }
 
   .right p {
-    margin:0;
+    margin: 0;
     opacity: 0.7;
     height: 100%;
     font-size: 0.875rem;
