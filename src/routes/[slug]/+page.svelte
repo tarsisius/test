@@ -13,9 +13,12 @@
   </div>
   <h1 class="title">{data.post.meta.title}</h1>
   <div class="date">
-    <time datetime={data.post.meta.published.date}
-      >{data.post.meta.published.date}</time>
-    <small>{data.post.meta.published.time}</small>
+    <time datetime={data.post.meta.published.date}>
+      {data.post.meta.published.date}
+    </time>
+    <small>
+      {data.post.meta.published.time}
+    </small>
   </div>
   <div class="main-content">
     {@html data.post.content}
@@ -57,10 +60,7 @@
   }
 
   .date small {
-    background-color: var(--accent-background);
-    color: var(--accent-foreground);
     padding: 0.2rem 0.25rem;
-    border-radius: 0.25rem;
   }
 
   .main-content {

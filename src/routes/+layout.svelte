@@ -17,12 +17,16 @@
 
     --border: #d4d4d8;
     --accent-border: #3f3f46;
+
+    --purple: #d323ff;
+    --black: #212121;
+    --white: #f8f8f8;
   }
 
   :global(body) {
-    font-family: "Figtree", sans-serif;
-    color: var(--foreground);
-    background-color: var(--background);
+    font-family: "Albert Sans", sans-serif;
+    color: var(--white);
+    background-color: var(--black);
   }
 
   @keyframes -global-reveal {
