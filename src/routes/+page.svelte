@@ -1,17 +1,19 @@
 <script lang="ts">
-  // import type { PageServerData } from "./$types"
-
-  // export let data: PageServerData
-
   import { getAllMeta } from "$lib/extract"
+  import PostCard from "$lib/components/post-card.svelte"
   const metas = getAllMeta()
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>
-  Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
-</p>
+<article>
+  {#each metas as meta}
+    <PostCard {meta} />
+  {/each}
+</article>
 
-{#each metas as meta}
-  <p>{meta.title}</p>
-{/each}
+<style>
+  article {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+</style>
