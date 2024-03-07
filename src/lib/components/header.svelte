@@ -34,9 +34,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    @media (min-width: 32rem) {
-      padding: 4rem 2rem;
-    }
+    padding: 4rem 2rem;
   }
 
   header .title {
