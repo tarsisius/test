@@ -41,6 +41,7 @@
   }
 
   header .title {
+    text-transform: uppercase;
     margin: 0;
     font-size: 2.25rem;
     font-weight: 800;
@@ -51,9 +52,11 @@
 
   .menu {
     position: relative;
+    text-transform: uppercase;
   }
 
   .menu button {
+    text-transform: uppercase;
     display: flex;
     align-items: center;
     justify-content: center;
