@@ -2,6 +2,9 @@
   // import type { PageServerData } from "./$types"
 
   // export let data: PageServerData
+
+  import { getAllMeta } from "$lib/extract"
+  console.log(getAllMeta())
   const metas = [
       {
         title: 'Hello worldd',
