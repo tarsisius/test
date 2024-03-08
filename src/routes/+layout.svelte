@@ -18,6 +18,7 @@
     --border: #d4d4d8;
     --accent-border: #3f3f46;
 
+    --blue:#10A0A0;
     --purple: #d323ff;
     --black: #212121;
     --white: #f8f8f8;

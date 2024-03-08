@@ -1,4 +1,4 @@
-`
+<pre class="title">
     $$\     $$\                     
     $$ |    $$ |                    
   $$$$$$\   $$$$$$$\   $$$$$$\      
@@ -9,4 +9,15 @@
      \____/ \__|  \__|$$  ____/ \__|
                       $$ |          
                       $$ |          
-                      \__|           `
+                      \__|           </pre>
+
+<style>
+  .title {
+    margin: 0;
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 0.5rem;
+    font-weight: 900;
+    padding: 0;
+  }
+</style>

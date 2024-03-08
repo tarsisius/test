@@ -1,18 +1,9 @@
 <script lang="ts">
-  import { base } from "$app/paths"
+  import AsciiLogo from "$lib/components/ascii-logo.svelte"
 </script>
 
 <header>
-  <pre class="title">
- __    __                   
-/\ \__/\ \                  
-\ \ ,_\ \ \___   _____      
- \ \ \/\ \  _ `\/\ '__`\    
-  \ \ \_\ \ \ \ \ \ \L\ \__ 
-   \ \__\\ \_\ \_\ \ ,__/\_\
-    \/__/ \/_/\/_/\ \ \/\/_/
-                     \ \_\  
-                      \/_/   </pre>
+  <AsciiLogo />
 </header>
 
 <style>
@@ -27,15 +18,5 @@
     @media (min-width: 32rem) {
       padding: 2rem 2rem;
     }
-  }
-
-  header .title {
-    /* transform: translateX(-2.5rem); */
-    margin: 0;
-    color: inherit;
-    text-decoration: none;
-    font-size: 0.6rem;
-    font-weight: 900;
-    padding: 0;
   }
 </style>

@@ -6,9 +6,10 @@
 </script>
 
 <svelte:head>
-  <title>thp. | site</title>
-  <meta name="description" content="it's my life logging" />
+  <title>thp. | Life Log Site</title>
+  <meta name="description" content="It's my life logging" />
 </svelte:head>
+
 <article>
   {#each data.meta as meta}
     <PostCard {meta} />
