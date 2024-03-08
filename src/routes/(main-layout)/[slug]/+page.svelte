@@ -63,6 +63,7 @@
   }
 
   .main-content {
+    line-height: 1.4rem;
     animation: fade 1.6s forwards;
   }
 </style>

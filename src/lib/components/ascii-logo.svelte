@@ -21,6 +21,5 @@
   }
   .title small {
     font-size: .6rem;
-    /* line-height: 1.25rem; */
   }
 </style>
