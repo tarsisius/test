@@ -7,7 +7,7 @@
     $$ |$$\ $$ |  $$ |$$ |  $$ |    
     \$$$$  |$$ |  $$ |$$$$$$$  |$$\ 
      \____/ \__|  \__|$$  ____/ \__|
-                      $$ |          
+                      $$ | <small>my.id</small>          
                       $$ |          
                       \__|           </pre>
 
@@ -18,5 +18,9 @@
     font-size: 0.5rem;
     font-weight: 900;
     padding: 0;
+  }
+  .title small {
+    font-size: .6rem;
+    /* line-height: 1.25rem; */
   }
 </style>
