@@ -37,7 +37,6 @@
   }
 
   .top {
-    overflow: hidden;
     margin-bottom: 1rem;
     animation: fade 0.8s forwards;
     display: flex;
@@ -46,12 +45,7 @@
   }
 
   .top a {
-    text-decoration: none;
-    color: inherit;
-  }
-
-  .top a:hover {
-    transform: translateX(0);
+    color: var(--blue);
   }
 
   .title {
@@ -69,7 +63,6 @@
   }
 
   .main-content {
-    line-height: 2rem;
     animation: fade 1.6s forwards;
   }
 </style>
