@@ -41,6 +41,7 @@
     align-items: center;
     position: relative;
     margin: 0;
+    color: var(--blue);
   }
 
   .right {
