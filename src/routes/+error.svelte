@@ -4,15 +4,27 @@
 </svelte:head>
 
 <div class="text-center">
-  <h1>404</h1>
+  <pre>
+$$\   $$\  $$$$$$\  $$\   $$\ 
+$$ |  $$ |$$$ __$$\ $$ |  $$ |
+$$ |  $$ |$$$$\ $$ |$$ |  $$ |
+$$$$$$$$ |$$\$$\$$ |$$$$$$$$ |
+\_____$$ |$$ \$$$$ |\_____$$ |
+      $$ |$$ |\$$$ |      $$ |
+      $$ |\$$$$$$  /      $$ |
+      \__| \______/       \__|
+  </pre>
 </div>
 
 <style>
   .text-center {
     text-align: center;
   }
-  h1 {
-    font-size: 6rem;
+  pre {
     margin: 0;
+    text-decoration: none;
+    font-size: 0.5rem;
+    font-weight: 900;
+    padding: 0;
   }
 </style>
